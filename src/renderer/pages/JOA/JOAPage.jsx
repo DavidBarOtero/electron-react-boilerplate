@@ -1,10 +1,12 @@
 // JOAComponent.js
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './JOAPage.css'; // Import your custom CSS file for styling
-import Dice from 'components/dice/Dice.jsx';
+import Dice from 'components/dice/DiceJoa.jsx';
 
 const JOAComponent = () => {
+
+
   return (
     <div className="container">
       {/* Duplicated horizontal section at the top */}

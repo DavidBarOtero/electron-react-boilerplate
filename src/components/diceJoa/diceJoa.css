@@ -1,0 +1,58 @@
+.diceJOA-container{
+    /* overflow: hidden; */
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.launcher{
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+}
+.launcher>img{
+    width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
+.dice-img {
+    transition: transform 0.5s ease;
+  }
+  
+  @keyframes rotateDice {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .dice-roll-animation {
+    animation: rotateDice 0.5s linear;
+  }
+  .dice-history{
+    width: 100px;
+    font-size: 16px;
+  }
+
+ .history-list {
+  max-height: 73px; /* Set the maximum height for the history container */
+  overflow-y: auto; /* Enable vertical scroll when history exceeds the maximum height */
+  background-color: beige;
+  margin-left: 9px;
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+}
+.history-list>li{
+  list-style: none;
+  font-size: 10px;
+  color: black;
+  padding: 0px;
+  width: 100%;
+}
