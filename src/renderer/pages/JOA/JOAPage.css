@@ -20,5 +20,6 @@
     grid-column: 1 / span 3; /* Span across all three columns for full width */
     padding: 10px;
     border: 1px solid #ccc;
-    max-height: 100px;
+    max-height: 300px;
+    /* overflow: hidden; */
   }

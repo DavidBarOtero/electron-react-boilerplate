@@ -1,7 +1,7 @@
 import { MemoryRouter as Router, Routes, Route } from 'react-router-dom';
-import LandingPage from './LandingPage';
+import LandingPage from './pages/landingPage/LandingPage';
 import './App.css';
-import JOAPage from './JOAPage';
+import JOAPage from './pages/JOA/JOAPage';
 
 
 
