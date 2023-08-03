@@ -1,0 +1,24 @@
+/* JOAComponent.css */
+
+/* Container to hold all sections */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Divide into three vertical sections */
+    grid-template-rows: .2fr 1fr; /* Divide into two horizontal sections */
+    gap: 10px;
+    height: 100vh; /* Adjust height as per your requirement */
+  }
+  
+  /* Styling for vertical sections */
+  .vertical-section {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styling for horizontal sections */
+  .horizontal-section {
+    grid-column: 1 / span 3; /* Span across all three columns for full width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    max-height: 100px;
+  }
