@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './JOAPage.css'; // Import your custom CSS file for styling
-import Dice from 'components/dice/DiceJoa.jsx';
+import Dice from 'components/diceJoa/DiceJoa.jsx';
 
 const JOAComponent = () => {
 
@@ -12,7 +12,7 @@ const JOAComponent = () => {
       {/* Duplicated horizontal section at the top */}
       <div className="horizontal-section">
         
-          <Dice/>
+          {/* <Dice/> */}
 
       </div>
 
